@@ -1,3 +1,12 @@
+/*
+Ian Hunt-Isaak
+ihuntisa@oberlin.edu
+
+Macro to learn to utilize root selection criteria
+
+Requires pp_2013_data_testfile.root to be in the same directory
+
+ */
 #include "TCanvas.h"
 #include "TH2F.h"
 #include "TFile.h"

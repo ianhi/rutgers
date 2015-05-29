@@ -1,6 +1,14 @@
-// This macro requires pp_2013_data_testfile.root to be in the same directory
-// Outputs a histogram of the difference between the leading jet and all other jets.
 
+/*
+Ian Hunt-Isaak
+ihuntisa@oberlin.edu
+
+
+Outputs a histogram of the difference between the leading jet and all other jets.
+
+Requires pp_2013_data_testfile.root to be in the same directory
+
+ */
 
 #include "TH1F.h"
 #include "TCanvas.h"
