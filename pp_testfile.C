@@ -1,3 +1,15 @@
+/*
+Ian Hunt-Isaak
+ihuntisa@oberlin.edu
+
+
+Outputs a histogram of the difference between the leading jet and all other jets.
+Accomplishes this using the Draw command. This is the most basic way to do this.
+
+Requires pp_2013_data_testfile.root to be in the same directory
+
+*/
+
 #include "TCanvas.h"
 #include "TFile.h"
 

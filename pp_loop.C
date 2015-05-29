@@ -1,4 +1,15 @@
-#include "TH1F.h"
+/*
+Ian Hunt-Isaak
+ihuntisa@oberlin.edu
+
+
+Generates histograms of jtpt, jteta,jtphi and a 2D histogram of jtphi vs jteta 
+This is accomplished by looping through the events and the jets in each event.
+
+Requires pp_2013_data_testfile.root to be in the same directory
+
+ */
+
 #include "TCanvas.h"
 #include "TH2F.h"
 #include "TFile.h"
